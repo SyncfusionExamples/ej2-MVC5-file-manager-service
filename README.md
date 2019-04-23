@@ -1,6 +1,6 @@
-# Physical file system storage accessed using EJ2 File Manager component in ASP.NET MNV 5 platform
+# ASP.NET MVC 5 service for the file manager component
 
-This example demonstrates how to utilize the file manager service in ASP.NET MVC 5 platform.
+This example demonstrates how to utilize the file manager service in ASP.NET MVC 5 framework.
 
 ## How to run this application?
 
@@ -20,6 +20,3 @@ cd FM_MVC5Service
 Once cloned, open solution file in visual studio.Then build the project after restoring the nuget packages and run it.
 
 
-## Output
-
-![File Manager service in ASP.NET MVC 5](FM_MVC5.png "File Manager service in ASP.NET MVC 5")
