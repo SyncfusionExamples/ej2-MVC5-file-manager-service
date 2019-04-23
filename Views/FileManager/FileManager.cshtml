@@ -1,0 +1,22 @@
+﻿@{
+    /**/
+
+    ViewBag.Title = "FileManager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Syncfusion.EJ2;
+<h2>FileManager</h2>
+<br />
+
+
+<div id="dialogTarget" style="height:500px">
+    <div id="file_manager">
+        @Html.EJS().FileManager("file").AjaxSettings(new Syncfusion.EJ2.FileManager.FileManagerAjaxSettings
+   {
+       Url = "/FileManager/FileActionDefault",
+       GetImageUrl = "/FileManager/GetImage",
+       DownloadUrl = "/FileManager/Download",
+       UploadUrl = "/FileManager/Upload"
+   })
+    </div>

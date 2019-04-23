@@ -679,7 +679,7 @@ namespace Syncfusion.EJ2.Base.PhysicalFileProvider
 #if EJ2_DNX
                 if (allowCompress)
                 {
-                    var size = new ImageSize { Height = 104, Width = 116 };
+                    var size = new ImageSize { Height = 14, Width = 16 };
                     CompressImage(fullPath, size);
                 }
 #endif
