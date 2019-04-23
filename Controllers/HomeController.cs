@@ -4,9 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Net;
 using System.Web.Mvc;
-using System.Web.Hosting;
-using Syncfusion.EJ2.Base.PhysicalFileProvider;
-using Syncfusion.EJ2.Base;
 using Newtonsoft.Json;
 
 namespace EJ2FileManagerService.Controllers
